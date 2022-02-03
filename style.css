@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+header{
+    margin: 37px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.test-heading h2{
+    font-family: "Source Sans Pro";
+}
+
+.heading-page-header{
+    font-family: "Source Sans Pro";
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 29px;
+    font-size: 22px;
+}
+
+.heading-page-header h3{
+    color: orange;
+}
+
+/* Shapes */
+
+/* Test into */
+.test-intro h1{
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 5.5rem;
+}
+
+.test-para {
+    margin: 37px;
+}
+
+.test-para p {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#widthAdjust{
+    width: auto;
+}
+
+.Test-Start {
+    margin: 37px;
+}
+.Test-Start h2{
+    font-family: "Roboto";
+    color: orange;
+    font-size: 34px;
+}
+
+/* Question */
+
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+.inner-div h2{
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.inner-div li{
+    font-size: 1rem;
+}
+
+.inner-div li{
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 0.75rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 20px;
+}
+
+#submit:hover{
+    background-color: #0984e3;
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    padding: 2rem 4rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+.scoreArea{
+    display: none;
+}
+
+#showScore h3{
+    font-family: "Source Sans Pro";
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#showScore .btn {
+    margin-top: 2rem;
+    background-color: #0984e3;
+    color: #2d3436;
+}
+#showScore .btn:hover{
+    margin-top: 2rem;
+    background-color: #74b9ff;
+    color: #fff;
+}
+
+.score{
+    height: 100px;
+    width: 100px;
+}
+
+.stats{
+    margin-top: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+.fx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading{
+    text-align: center;
+    width: 75%;
+}
+
+.heading p{
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 31.5px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+.main-div{
+    min-height: 125vh;
+}
+}
+@media screen and (max-width: 768px) {
+    .inner-div {
+        width: 100vw;
+    }
+    .heading{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .main-div{
+        min-height: 150vh;
+    }
+    .stats {
+        margin-top: 20px;
+        height: initial;
+        width: 500px;
+    }
+    }
+@media screen and (max-width: 500px) and (min-width: 375px) {
+    .stats{
+        width: 375px;
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    .main-div{
+        min-height: 200vh;
+    }
+    .inner-div{
+        padding: 0.5rem 0.75rem;
+    }
+    .stats {
+        margin-top: 20px;
+        height: initial;
+        width: 320px;
+    }
+    }
+
+    #question-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Source Sans Pro";
+    }
+
+    .question-area {
+        background-color: #55efc4;
+        padding: 40px;
+    }
+
+    /* More Assistance */
+
+    .more-assistance{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .more-image{
+        width: 50%;
+    }
+
+    .more-image-para{
+        width: 40%;
+    }
+
+    .more-image-para h1{
+        font-family: "Source Sans Pro";
+        font-size: 50px;
+        color: orange;
+        font-weight: bold;
+    }
+    
+    .more-image-para p{
+        margin-top: 12px;
+        font-family: "Roboto";
+        font-size: 23px;
+    }
+
+    .more-image-para button {
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        background-color: orange;
+        cursor: pointer;
+        padding: 13px;
+        border-radius: 10px;
+    }
+    .more-image-para button a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: "Source Sans Pro";
+        font-weight: bold;
+    }
+
+    .more-image-para-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+        .image img{
+            width: 600px;
+        }
+
+        .more-image img {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 768px) and (min-width: 600px) {
+        h1 {
+            font-size: 41px!important;
+        }
+        .image img{
+            width: 600px;
+        }
+
+        .more-image img {
+            width: 100%;
+        }
+        .fx{
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 600px) {
+       .more-assistance {
+           flex-direction: column;
+       }
+       .more-image img{
+        width: 100%;
+    }
+
+    .more-image-para{
+        width: 100%;
+    }
+    .more-image img {
+        width: 100%;
+    }
+    .more-image-para p,
+    .more-image-para h1{
+       text-align: center;
+    }
+    .fx{
+        flex-direction: column;
+    }
+    #showScore h3 {
+        font-size: 1.2rem;
+    }
+    }
+  @media screen and (max-width: 600px) and (min-width: 320px) {
+    h1 {
+        font-size: 35px!important;
+    }
+    .image img {
+        width: 100%;
+    }
+    p{
+        font-size: 17px!important;
+    }
+    .more-image-para p{
+       text-align: center;
+       
+    }
+    .fx{
+        flex-direction: column;
+    }
+    #showScore {
+        background-color: #55efc4;
+        padding: 2rem 4rem;
+        margin-top: 1.5rem;
+        box-shadow: none;
+    }
+  }
+
+  @media screen and (max-width: 375px) and (min-width: 320px) {
+    .test-heading h2 {
+        font-size: 18px;
+    }
+    .heading-page-header {
+        padding: 10px;
+        font-size: 19px;
+    }
+    #showScore .btn{
+        padding: 10px 9px;
+    }
+    .Test-Start h2 {
+        font-size: 23px;
+    }
+  }
